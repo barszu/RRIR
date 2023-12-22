@@ -1,0 +1,2 @@
+# RRIR
+Równania Różniczkowe
