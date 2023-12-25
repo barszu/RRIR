@@ -41,8 +41,9 @@ def B(i:int, j:int): #== -integral(from=0 , to=3 , function= e'i * e'j)
 
 def L(j:int): #== -integral(from=1 , to=2 , function= ej)
     integral_start = 1.0
-    integral_end = 3.0
-    # TODO: dont integrate 0 !!!
+    integral_end = 2.0
+    # not integrating 0 !!! -> ej === 0 on [integral_start , integral_end]
+    if (j+1)*h < integral_start or (j-1)*h > integral_end: return 0
     return 4*math.pi*G* integrate.quad(lambda x: e(j, x), integral_start , integral_end)[0]
 
 # ------------------------------------------------------

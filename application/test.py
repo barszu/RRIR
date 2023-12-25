@@ -1,4 +1,4 @@
-from utils import solve
+from solver import solve
 
 n = 3
 
