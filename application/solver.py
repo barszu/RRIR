@@ -19,7 +19,7 @@ def e_derivative(i:int, x):
     return -1 / h
 
 # ------------------------------------------------------
-# B , L functions
+# B , L (tylda) functions
 
 def B(i:int, j:int): #== -integral(from=0 , to=3 , function= e'i * e'j)
     if abs(i-j) >=2 : return 0 #integral from e'i * e'j === 0 
@@ -47,10 +47,10 @@ def L(j:int): #== -integral(from=1 , to=2 , function= ej)
     return 4*math.pi*G* integrate.quad(lambda x: e(j, x), integral_start , integral_end)[0]
 
 # ------------------------------------------------------
-# extra fun 
+# extra functions
 
 def shifter(x): #shift fun aka u_tylda
-    return 2/3 * x + 5
+    return -1/3 * x + 5
 
 # ------------------------------------------------------
 # solver, main fun
