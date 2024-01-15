@@ -2,4 +2,4 @@
 
 Równania Różniczkowe
 
-Projekt: Potencjał pola grawitacyjnego szacowany metodą różnic skończonych
+Projekt: Potencjał pola grawitacyjnego szacowany metodą elementów skończonych
