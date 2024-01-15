@@ -44,6 +44,8 @@ def L(j:int): #== -integral(from=1 , to=2 , function= ej)
     integral_end = 2.0
     # not integrating 0 !!! -> ej === 0 on [integral_start , integral_end]
     if (j+1)*h < integral_start or (j-1)*h > integral_end: return 0
+    integral_start = max(integral_start , h*(j-1))
+    integral_end = min(integral_end , h*(j+1))
     return 4*math.pi*G* integrate.quad(lambda x: e(j, x), integral_start , integral_end)[0]
 
 # ------------------------------------------------------
