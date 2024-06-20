@@ -1,44 +1,36 @@
-# 📊 RRIR
+# 📊 **RRIR**
 
-## Równania Różniczkowe
+## **Differential Equations**
 
-### Projekt: Obliczanie równania różniczkowego metodą elementów skończonych
+### **Project:** Solving Differential Equations Using the Finite Element Method
 
+### **Topic:** Gravitational Field Potential Estimated Using the Finite Element Method
 
-Temat: Potencjał pola grawitacyjnego szacowany metodą elementów skończonych
+### 📝 **Description:**
 
----
+The aim of this project is to implement the finite element method to solve a differential equation. The project utilizes the NumPy library for numerical computations and Tkinter to create a simple user interface.
 
-### 📝 Opis:
+### 📋 **Instructions:**
 
-Projekt ten ma na celu implementację metody elementów skończonych do rozwiązania równania różniczkowego. W projekcie wykorzystano biblioteki NumPy do obliczeń numerycznych oraz Tkinter do stworzenia prostego interfejsu użytkownika.
+1. Download the project:
+   - Download the files from this repository to your computer.
+2. Install the required libraries:
+   - The project requires libraries such as NumPy and Tkinter.
+   - NumPy can be installed using the command: `pip install numpy`.
+   - Tkinter is part of the standard Python installation, so no additional installation is needed.
+3. Run the program:
+   - Run the `main.py` file using the Python interpreter.
+4. Using the program:
+   - After starting the program, a simple user interface window will be displayed.
+   - Enter the value for the constant G and the number of divisions n.
+   - Click the "Solve" button.
+5. Receiving results:
+   - The results will be displayed in the program window.
+   - You can save the results to files or use them for further computations.
 
-### 📋 Instrukcja obsługi:
+### 📚 **Required Libraries:**
 
-1. **Pobranie projektu:**
-   - Pobierz pliki z tego repozytorium na swój komputer.
-
-2. **Instalacja wymaganych bibliotek:**
-   - Projekt wymaga zainstalowania bibliotek takich jak NumPy oraz Tkinter.
-   - NumPy można zainstalować za pomocą polecenia: `pip install numpy`.
-   - Tkinter jest częścią standardowej instalacji Pythona, więc nie wymaga dodatkowej instalacji.
-
-3. **Uruchomienie programu:**
-   - Uruchom plik `main.py` za pomocą interpretera Pythona.
-
-4. **Użytkowanie programu:**
-   - Po uruchomieniu programu, zostanie wyświetlone proste okno interfejsu użytkownika.
-   - Wprowadź wartośc stałej G oraz ilość podziałów n.
-   - Kliknij przycisk "Solve".
-
-5. **Otrzymywanie wyników:**
-   - Wyniki zostaną wyświetlone w oknie programu.
-   - Możesz zapisywać wyniki do plików lub wykorzystywać je w dalszych obliczeniach.
-
-### 📚 Wymagane biblioteki:
-
-- NumPy: Biblioteka do obliczeń numerycznych w Pythonie.
-  - Instalacja: `pip install numpy`.
-- Tkinter: Biblioteka do tworzenia interfejsu użytkownika w Pythonie.
-  - Jest częścią standardowej instalacji Pythona.
-
+- NumPy: A library for numerical computations in Python.
+  - Installation: `pip install numpy`.
+- Tkinter: A library for creating a user interface in Python.
+  - It is part of the standard Python installation.
